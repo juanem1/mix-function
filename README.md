@@ -11,8 +11,12 @@ Then add this this line in your require section
     "ibox/mix-function": "~1.0"
 }
 ```
+Then run:
+```
+composer install
+```
 
-Optional you can run
+Optionally you can run
 
 ```
 composer dump-autoload
