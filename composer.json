@@ -1,5 +1,5 @@
 {
-  "name": "ibox/mix",
+  "name": "ibox/mix-function",
   "description": "Laravel mix function to render versioned assetes",
   "keywords": [
     "Laravel",

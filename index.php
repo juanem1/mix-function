@@ -26,6 +26,6 @@ function mix($path, $manifestDirectory = '')
     }
 
     return file_exists($manifestDirectory.'/hot')
-                ? new HtmlString("http://localhost:8080{$manifest[$path]}")
-                : new HtmlString($manifestDirectory.$manifest[$path]);
+                ? "http://localhost:8080{$manifest[$path]}"
+                : $manifest[$path];
 }
