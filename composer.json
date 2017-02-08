@@ -1,0 +1,30 @@
+{
+  "name": "ibox/mix",
+  "description": "Laravel mix function to render versioned assetes",
+  "keywords": [
+    "Laravel",
+    "Laraver Mix",
+    "Helper Function"
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "support": {
+    "issues": "https://github.com/juanem1/mix-function/issues",
+    "source": "https://github.com/juanem1/mix-function"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Juan Emilio Turk",
+      "email": "juanemilioturk@gmail.com",
+      "homepage": "http://ideasbox.com.ar"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
